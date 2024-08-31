@@ -3,7 +3,7 @@ from lxml import etree
 
 #发送请求
 url = 'https://nba.hupu.com/stats/players'
-resp = requests.get(url,headers={'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0'})
+resp = requests.get(url,headers={'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20111101 Firefox/126.0'})
 
 #获取结果
 e = etree.HTML(resp.text)
